@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="author" content="Jnana Teja" />
+    <meta name="description" content="Jnana Teja Portfolio" />
+    <meta name="keywords" content="Mechanical Engineer" />
+
+    <title>JT Profile</title>
+
+    <link rel="stylesheet" href="color-1.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+
+    <link rel="stylesheet" href="style_switcher.css" />
+    <link
+      rel="stylesheet"
+      href="color-1.css"
+      class="alternate_style"
+      title="color-1"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="color-2.css"
+      class="alternate_style"
+      title="color-2"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="color-3.css"
+      class="alternate_style"
+      title="color-3"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="color-4.css"
+      class="alternate_style"
+      title="color-4"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="color-5.css"
+      class="alternate_style"
+      title="color-5"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body class="dark">
+    <div class="scroll_watcher"></div>
+    <!-- <div id="blob"></div> -->
+    <div class="aside">
+      <div class="logo">
+        <a href="#">JT</a>
+      </div>
+      <div class="nav_toggler" onclick="asideNavBar()" title="nav menu">
+        <span></span>
+      </div>
+      <ul class="nav" id="nav_list">
+        <li>
+          <a id="nav_btns" href="#portfolio"
+            ><i class="fa fa-briefcase"></i>Projects</a
+          >
+        </li>
+
+        <li>
+          <a id="nav_btns" href="#about"><i class="fa fa-user"></i> About</a>
+        </li>
+        <li>
+          <a id="nav_btns" href="#services"
+            ><i class="fa fa-list"></i> Services</a
+          >
+        </li>
+
+        <li>
+          <a id="nav_btns" href="#contact"
+            ><i class="fa fa-comments"></i> Contact</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <main class="main_content flex_col">
+      <section class="portfolio section" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section_title padd_15">
+              <h2>Portfolio</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="portfolio_heading padd_15">
+              <h2>My Projects</h2>
+            </div>
+          </div>
+
+          <div class="row" id="portfolioRow"></div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section_title padd_15">
+            <h2>About Me</h2>
+          </div>
+
+          <div class="about_content padd_15">
+            <div class="about_text padd_15">
+              <h3 class="hello">
+                Hello, my name is <span>Jnana Teja</span>
+              </h3>
+
+              <h3 class="my_profession">
+                I'm a <span class="typing">Mechanical Engineer</span>
+              </h3>
+
+              <p>
+                I am a robotics engineer with a master’s degree in Robotics and expertise in mechatronics, machine learning, and mechanical engineering. Seeking a challenging position in robotics, automation, or mechanical engineering to apply technical skills in MATLAB, Simulink, ROS, and CAD. I have a proven track record in designing and implementing complex algorithms for robotic systems, with a demonstrated passion for innovation. Eager to contribute to projects in research and applications within manufacturing, robotics, automotive, drones, and mechanical engineering.
+
+              </p>
+              <a href="#contact" class="btn hire_me">Hire Me</a>
+            </div>
+
+            <div class="row">
+              <div class="personal_info padd_15">
+                <h3 class="title">Personal Information</h3>
+
+                <div class="row">
+                  <div class="info_item padd_15">
+                    <p>Email <span>jnanateja.pasagadugula@gmail.com</span></p>
+                  </div>
+                  
+                  <div class="info_item padd_15">
+                    <p>Degree <span>M.Eng, B.Eng</span></p>
+                  </div>
+
+                  <div class="info_item padd_15">
+                    <p>City <span>Jersey City, NJ</span></p>
+                  </div>
+                  <div class="info_item padd_15">
+                    <p>Open to new Jobs: <span>Yes</span></p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="buttons padd_15">
+                    <as
+                      href="https://docs.google.com/document/d/e/2PACX-1vTIhr0RK8UiCu72jGZWlXiE-NhaiaP1oPVPjlmTQBCjpsRQHrXM0GxioDQ0GrX5meeQJq0F1BKckPP_/pub"
+                      target="_blank"
+                      class="btn"
+                      >My Resume</as
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills padd_15">
+                <h3 class="title">Skills</h3>
+                <div class="row">
+                  <div class="skill_items padd_15">
+                    <h5>MATLAB</h5>
+                    <div class="progress">
+                      <div class="progress_in" style="width: 95%"></div>
+                      <div class="skill_percent">95%</div>
+                    </div>
+                  </div>
+
+                  <div class="skill_items padd_15">
+                    <h5>Fusion 360</h5>
+                    <div class="progress">
+                      <div class="progress_in" style="width: 90%"></div>
+                      <div class="skill_percent">90%</div>
+                    </div>
+                  </div>
+
+                  <div class="skill_items padd_15">
+                    <h5>ROS</h5>
+                    <div class="progress">
+                      <div class="progress_in" style="width: 85%"></div>
+                      <div class="skill_percent">85%</div>
+                    </div>
+                  </div>
+
+                  <div class="skill_items padd_15">
+                    <h5>CAE</h5>
+                    <div class="progress">
+                      <div class="progress_in" style="width: 70%"></div>
+                      <div class="skill_percent">70%</div>
+                    </div>
+                  </div>
+
+                  <div class="skill_items padd_15">
+                    <h5>Controls</h5>
+                    <div class="progress">
+                      <div class="progress_in" style="width: 85%"></div>
+                      <div class="skill_percent">85%</div>
+                    </div>
+                  </div>
+
+                  <div class="skill_items padd_15">
+                    <h5>3D printing</h5>
+                    <div class="progress">
+                      <div class="progress_in" style="width: 80%"></div>
+                      <div class="skill_percent">80%</div>
+                    </div>
+                  </div>
+
+                  <div class="skill_items padd_15">
+                    <h5>Python</h5>
+                    <div class="progress">
+                      <div class="progress_in" style="width: 75%"></div>
+                      <div class="skill_percent">75%</div>
+                    </div>
+                  </div>
+
+                  <div class="skill_items padd_15">
+                    <h5>Writing</h5>
+                    <div class="progress">
+                      <div class="progress_in" style="width: 95%"></div>
+                      <div class="skill_percent">95%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="education padd_15">
+                <h3 class="title">Education</h3>
+                <div class="row">
+                  <div class="timeline_box padd_15">
+                    <div class="timeline shadow_dark">
+                      <div class="timeline_item">
+                        <div class="circle_dot"></div>
+                        <h3 class="timeline_date">
+                          <i class="fa fa-calendar"></i> January 2023 - May
+                          2024
+                        </h3>
+                        <h4 class="timeline_title">
+                          Master of Engineering in Robotics at
+                          Stevens Institute of Technology
+                        </h4>
+                        <div class="timeline_text">
+                          <h4>Courses:</h4>
+                          <ul>
+                            <li>Mechatronics</li>
+                            <li>Mobile Robots</li>
+                            <li>Robot Manipulators</li>
+                            <li>Autonomous navigation</li>
+                            <li>Control Theory</li>
+                            
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="timeline_item">
+                        <div class="circle_dot"></div>
+                        <h3 class="timeline_date">
+                          <i class="fa fa-calendar"></i> August 2018 - May 2022
+                        </h3>
+                        <h4 class="timeline_title">
+                          Bachelor of Engineering in Automobile Engineering from 
+                          Sathyabama Institute of Science and Technology
+                        </h4>
+                        <div class="timeline_text">
+                          <h4>Relevant Courses:</h4>
+                          <ul>
+                            <li>Machine design</li>
+                            <li>Thermodynamics</li>
+                            <li>Strength of Materials</li>
+                            <li>Fluid dynamics</li>
+                            <li>Aerodynamics</li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="timeline_item">
+                        <div class="circle_dot"></div>
+                        <h3 class="timeline_date">
+                          <i class="fa fa-calendar"></i> July 2020 - Feb 2021
+                        </h3>
+                        <h4 class="timeline_title">
+                          Micromasters in Emerging Automotive Technology from ChalmersX on edx
+                        </h4>
+                        <div class="timeline_text">
+                          <h4>Relevant Courses:</h4>
+                          <ul>
+                            <li>Electric vehicles</li>
+                            <li>Sensor Fusion</li>
+                            <li>Model Based Learning</li>
+                            <li>Multi-Object Tracking</li>
+                          </ul>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="experience padd_15">
+                <h3 class="title">Experience</h3>
+                <div class="row">
+                  <div class="timeline_box padd_15">
+                    <div class="timeline shadow_dark">
+                      <div class="timeline_item">
+                        <div class="circle_dot"></div>
+                        <h3 class="timeline_date">
+                          <i class="fa fa-calendar"></i> July 2022 - Oct 2022
+                        </h3>
+                        <h4 class="timeline_title">
+                          IIPH Labs - Research intern
+                        </h4>
+                        <p class="timeline_text">
+                          Worked on the review paper “Review on analysis and design of Cryogenic engines,” during the internship period. Involved in designing 3D CAD models with GD&T, and preparing Bill of Materials (BOM) for cryogenic engines, utilized Rocket Propulsion Analysis (RPA) software to determine precise design parameters.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="service section" id="services">
+        <div class="container" id="servicesContainer">
+          <div class="row">
+            <div class="section_title padd_15">
+              <h2>Services</h2>
+            </div>
+          </div>
+
+          <div class="row" id="servicesRow">
+            <!-- Service items will be dynamically added here -->
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section_title padd_15">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact_text padd_15">
+              <p>Feel Free to Reach Out to Me</p>
+            </div>
+          </div>
+
+          <div class="row" id="contactRow"></div>
+
+          <div class="row">
+            <div class="reach_out padd_15">
+              <h2>Send Your Thoughts</h2>
+            </div>
+          </div>
+          <form
+            class="row"
+            action="https://formsubmit.co/jnanateja.pasagadugula@gmail.com"
+            method="post"
+            target="_blank"
+          >
+            <div class="contact_form padd_15">
+              <div class="row">
+                <div class="form_item col_6 padd_15">
+                  <div class="form_group">
+                    <input
+                      type="text"
+                      class="form_control"
+                      placeholder="Name"
+                      name="name"
+                    />
+                  </div>
+                </div>
+
+                <div class="form_item col_6 padd_15">
+                  <div class="form_group">
+                    <input
+                      type="email"
+                      class="form_control"
+                      placeholder="e-mail"
+                      name="email"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="form_item col_6 padd_15">
+                  <div class="form_group">
+                    <input
+                      type="text"
+                      class="form_control"
+                      placeholder="Subject"
+                      name="subject"
+                    />
+                  </div>
+                </div>
+
+                <div class="form_item col_12 padd_15">
+                  <div class="form_group">
+                    <textarea
+                      class="form_control text_area"
+                      id=""
+                      placeholder="Message"
+                      name="message"
+                    ></textarea>
+                  </div>
+                </div>
+
+                <div class="form_item col_12 padd_15">
+                  <div class="form_group">
+                    <input type="submit" class="btn" Send Message />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <div class="style_switcher">
+      <div class="style_switcher_toggler s_icon" title="theme colors">
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <div class="day_night s_icon" title="theme switcher">
+        <i class="fas"></i>
+      </div>
+      <h4>Theme Colors</h4>
+      <div class="colors">
+        <span class="color_1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color_2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color_3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color_4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color_5" onclick="setActiveStyle('color-5')"></span>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- JS for services -->
+    <script src="servicesItems.js"></script>
+
+    <!-- JS for projects -->
+    <script src="projects.js"></script>
+
+    <!-- JS for Contat Items -->
+    <script src="contactItems.js"></script>
+
+    <script src="script.js"></script>
+    <script src="style-switcher.js"></script>
+  </body>
+</html>
