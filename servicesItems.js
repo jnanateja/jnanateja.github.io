@@ -2,15 +2,15 @@
 const serviceItems = [
     {
         iconClass: "fa fa-mobile-alt",
-        title: "Robotics Hardware engineering",
+        title: "Robotics engineering",
     },
     {
         iconClass: "fa fa-code",
-        title: "ROS",
+        title: "MATLAB",
     },
     {
         iconClass: "fa fa-laptop-code",
-        title: "CAD Designing",
+        title: "ROS",
     },
     {
         iconClass: "fa fa-solid fa-keyboard",
@@ -22,10 +22,9 @@ const serviceItems = [
     },
     {
         iconClass: "fa fa-palette",
-        title: "Photo Editing",
+        title: "CAD designing",
     },
 ];
-
 // Function to create and populate service items
 function populateServiceItems() {
     const servicesRow = document.getElementById("servicesRow");
