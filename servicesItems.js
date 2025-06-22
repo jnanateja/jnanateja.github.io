@@ -13,16 +13,16 @@ const serviceItems = [
         title: "ROS",
     },
     {
+        iconClass: "fa fa-palette",
+        title: "CAD designing",
+    },
+    {
         iconClass: "fa fa-solid fa-keyboard",
         title: "Technical Content Writer",
     },
     {
         iconClass: "fa fa-solid fa-camera-retro",
         title: "Photography",
-    },
-    {
-        iconClass: "fa fa-palette",
-        title: "CAD designing",
     },
 ];
 // Function to create and populate service items
