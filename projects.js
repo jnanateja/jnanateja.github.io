@@ -8,11 +8,11 @@ const portfolioItems = [
         languages: "Matlab, Simulink",
     },
     {
-        title: "SLAM Algorithm Implementation",
-        link: "https://github.com/jnanateja/SLAM-G-mapping.git",
+        title: "Multi-Object tracking in cluttered environmentsn",
+        link: "https://github.com/jnanateja/Object-tracking-in-clutter.git",
         description:
-            "Implemented the SLAM algorithm ‘G-mapping’ by using ROS tools, using the dataset from a robot's LIDAR sensors, odometry, IMU, and video recordings from cameras.",
-        languages: "Python",
+            "Implemented and evaluated three object tracking algorithms—Global Nearest Neighbor (GNN), Joint Probabilistic Data Association (JPDA), and Track-Oriented Multiple Hypothesis Tracking (TOMHT)—to track multiple moving targets in cluttered environments. Developed custom measurement and motion models, and assessed performance using RMSE achieving the best accuracy.",
+        languages: "Matlab",
     },
     {
         title: "Wearable Robotics and Sensors Project",
